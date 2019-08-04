@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/conut"
+    tools:context=".Main5Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/r1"
+            android:contentDescription="@string/todo21" />
+
+        <ImageView
+            android:id="@+id/imageView54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/r2"
+            android:contentDescription="@string/todo22" />
+
+        <ImageView
+            android:id="@+id/imageView55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/r3"
+            android:contentDescription="@string/todo23" />
+
+        <ImageView
+            android:id="@+id/imageView56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/r4"
+            android:contentDescription="@string/todo24" />
+
+        <ImageView
+            android:id="@+id/imageView57"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/r5"
+            android:contentDescription="@string/todo25" />
+
+        <ImageView
+            android:id="@+id/imageView58"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/r6"
+            android:contentDescription="@string/todo26" />
+
+        <ImageView
+            android:id="@+id/imageView59"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/r7"
+            android:contentDescription="@string/todo27" />
+
+        <ImageView
+            android:id="@+id/imageView60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/r8"
+            android:contentDescription="@string/todo28" />
+
+        <ImageView
+            android:id="@+id/imageView61"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/r9"
+            android:contentDescription="@string/todo29" />
+
+        <ImageView
+            android:id="@+id/imageView62"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/r10"
+            android:contentDescription="@string/todo30" />
+    </LinearLayout>
+</ScrollView>

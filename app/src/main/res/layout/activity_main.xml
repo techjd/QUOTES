@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/conut"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="276dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="532dp"
+        android:background="#5bfff4"
+        android:fontFamily="sans-serif-black"
+        android:hapticFeedbackEnabled="true"
+        android:text="@string/motivation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="276dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="451dp"
+        android:background="#ffff47"
+        android:fontFamily="sans-serif-black"
+        android:hapticFeedbackEnabled="true"
+        android:text="@string/success"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="276dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="314dp"
+        android:layout_marginBottom="365dp"
+        android:background="#68ff9a"
+        android:fontFamily="sans-serif-black"
+        android:hapticFeedbackEnabled="true"
+        android:text="@string/cars"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="276dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="403dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="276dp"
+        android:background="#a5c3ff"
+        android:fontFamily="sans-serif-black"
+        android:hapticFeedbackEnabled="true"
+        android:text="@string/rich"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="276dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="585dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="94dp"
+        android:background="#ecafff"
+        android:fontFamily="sans-serif-black"
+        android:hapticFeedbackEnabled="true"
+        android:text="@string/love"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="276dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="179dp"
+        android:background="#6d7ced"
+        android:fontFamily="sans-serif-black"
+        android:hapticFeedbackEnabled="true"
+        android:text="@string/friendship"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
